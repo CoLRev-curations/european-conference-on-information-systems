@@ -1,0 +1,18 @@
+- filename: DBLP.bib
+  search_type: FEED
+  source_name: European Confereence on Information Systems
+  source_url: ''
+  search_parameters: 
+    - endpoint: dblp
+      params: 
+        venue_key: conf/ecis
+        journal_abbreviated: ecis
+  comment: ''
+- filename: pdfs.bib
+  search_type: PDFS
+  source_name: ECIS
+  source_url: pdfs
+  outlet: conference=European Conference on Information Systems
+  sub_dir_pattern: year
+  search_parameters: NA
+  comment: NA

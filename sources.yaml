@@ -4,9 +4,7 @@
   source_url: ''
   search_parameters: 
     - endpoint: dblp
-      params: 
-        venue_key: conf/ecis
-        journal_abbreviated: ecis
+      params: SCOPE venue_key='conf/ecis' AND journal_abbreviated='ecis'
   comment: ''
 - filename: pdfs.bib
   search_type: PDFS

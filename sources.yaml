@@ -7,10 +7,10 @@
       params: SCOPE venue_key='conf/ecis' AND journal_abbreviated='ecis'
   comment: ''
 - filename: pdfs.bib
-  search_type: PDFS
+  search_type: FEED
   source_name: ECIS
   source_url: pdfs
-  outlet: conference=European Conference on Information Systems
-  sub_dir_pattern: year
-  search_parameters: NA
+  search_parameters:
+  - endpoint: pdfs_directory
+    params: SCOPE path='pdfs' WITH conference='European Conference on Information Systems' AND sub_dir_pattern='year'
   comment: NA

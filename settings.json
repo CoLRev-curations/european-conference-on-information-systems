@@ -16,31 +16,35 @@
         {
             "filename": "search/DBLP.bib",
             "search_type": "DB",
-            "source_name": "DBLP",
+            "source_name": "dblp",
             "source_identifier": "{{dblp_key}}",
-            "search_parameters": "SCOPE venue_key='conf/ecis' AND journal_abbreviated='ecis'",
-            "search_script": {
-                "endpoint": "search_dblp"
+            "search_parameters": {
+                "scope": {
+                    "venue_key": "conf/ecis",
+                    "journal_abbreviated": "ecis"
+                }
             },
-            "conversion_script": {
+            "load_conversion_script": {
                 "endpoint": "bibtex"
             },
-            "source_prep_scripts": [],
             "comment": ""
         },
         {
             "filename": "search/pdfs.bib",
             "search_type": "PDFS",
-            "source_name": "PDFs",
+            "source_name": "pdfs_dir",
             "source_identifier": "{{file}}",
-            "search_parameters": "SCOPE path='pdfs' WITH conference='European Conference on Information Systems' AND sub_dir_pattern='year'",
-            "search_script": {
-                "endpoint": "search_pdfs_dir"
+            "search_parameters": {
+                "scope": {
+                    "subdir_pattern": "year",
+                    "type": "conference",
+                    "conference": "European Conference on Information Systems",
+                    "path": "pdfs"
+                }
             },
-            "conversion_script": {
+            "load_conversion_script": {
                 "endpoint": "bibtex"
             },
-            "source_prep_scripts": [],
             "comment": ""
         }
     ],

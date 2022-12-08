@@ -5,4 +5,5 @@ venv
 .references_learned_settings
 .corrections.ipynb_checkpoints/
 data/pdfs
-
+data/.tei/
+__pycache__/

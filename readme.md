@@ -16,7 +16,7 @@ colrev env --install geritwagner/european-conference-on-information-systems
 
 |TOC           |DBLP.bib        |pdfs.bib        |all_merged      |
 |--------------|----------------|----------------|----------------|
-|2022          |               -|           *238*|              NO|
+|2022          |           *237*|           *237*|              NO|
 |2021          |           *214*|           *215*|              NO|
 |2020          |         *61*247|         *276*31|              NO|
 |2019          |             297|         *240*34|              NO|
@@ -39,7 +39,7 @@ colrev env --install geritwagner/european-conference-on-information-systems
 |2002          |             157|         *44*123|              NO|
 |2001          |             127|          *47*80|              NO|
 |2000          |             205|         *69*129|              NO|
-|1999          |              82|           *75*6|              NO|
+|1999          |              82|           *76*6|              NO|
 |1998          |             141|         *130*12|              NO|
 |1997          |             121|         *109*10|              NO|
 |1996          |             117|          *96*20|              NO|
